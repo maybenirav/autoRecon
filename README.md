@@ -3,6 +3,7 @@
 hey! i built this python framework to automate the boring parts of my CTFs and penetration testing labs. instead of manually running nmap, dirb, and searchsploit one by one, i wanted a script that just handles the heavy lifting for me. 
 
 it's split into two main engines: one for mapping out the target (recon), and one for finding actual exploits (vuln). 
+run this command in your terminal : python3 recon.py -t [TARGET] -(choose any operations)
 
 ## what it actually does
 * **recon mode (`-r`):** maps the footprint. it runs a whois lookup, hunts subdomains with assetfinder, checks open ports with nmap, grabs the tech stack with whatweb, and fuzzes directories with dirb.
