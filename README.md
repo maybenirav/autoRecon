@@ -11,8 +11,10 @@ run this command in your terminal : python3 recon.py -t [TARGET] -(choose any op
 * **all-in-one (`-a`):** runs the entire pipeline back-to-back and dumps everything into one clean, timestamped text file.
 
 ## stuff you need installed
-i built this on kali linux, so you probably already have most of this. to make sure you have all the required tools, just run this quick command in your terminal:
+if you run this on kali linux, so you probably already have most of this. 
+if not, run this cmd to install all the required tools:
 
 ```bash
 sudo apt update
 sudo apt install nmap whois assetfinder whatweb dirb nikto exploitdb -y
+```
