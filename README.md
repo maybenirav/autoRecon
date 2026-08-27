@@ -1,6 +1,6 @@
 # auto-recon & vuln finder 🕵️‍♂️
 
-hey! i built this python framework to automate the boring parts of my CTFs and penetration testing labs. instead of manually running nmap, dirb, and searchsploit one by one, i wanted a script that just handles the heavy lifting for me. 
+built this python framework to automate the boring parts of my CTFs and penetration testing labs. instead of manually running nmap, dirb, and searchsploit one by one, i wanted a script that just handles the heavy lifting for me. 
 
 it's split into two main engines: one for mapping out the target (recon), and one for finding actual exploits (vuln). 
 run this command in your terminal : python3 recon.py -t [TARGET] -(choose any operations)
@@ -11,7 +11,7 @@ run this command in your terminal : python3 recon.py -t [TARGET] -(choose any op
 * **all-in-one (`-a`):** runs the entire pipeline back-to-back and dumps everything into one clean, timestamped text file.
 
 ## stuff you need installed
-if you run this on kali linux, so you probably already have most of this. 
+if you run this on kali linux, you probably already have most of this. 
 if not, run this cmd to install all the required tools:
 
 ```bash
